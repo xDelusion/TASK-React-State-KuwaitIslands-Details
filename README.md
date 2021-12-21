@@ -1,24 +1,20 @@
-# Island hunt
+## Counter
 
+1. In the component IslandForm.js there is a counter that's not functional. Fix it.
 
-## What is this demo?
+## Search Bar
 
-in this demo a list of islands is shown, a search bar, counter and a form 
+1. In the component `IslandList.js` there is a search bar that's not functional. Fix it.
 
-## What are the objectives?
+## Change the island
 
-state and onclick, onchange functions in react
+1. In `App.js` we are rendring the `IslandList.js` and `IslandForm.js`.
+2. Create a state called `island` that holds the island to be shown with an intial value of an empty string.
+3. In `App.js` pass our state to the `IslandForm.js`.
+4. Pass this `setIsland` to `IslandList.js`.
+5. From `IslandList.js` let's pass it again to `Island.js`.
+6. Add an `onClick` function to the whole `div` that calls our `setIsland` and give it the current island.
 
-## Steps
+## Book Now
 
-clone the demo, and start completeing the missing features 
-1. counter in the form
-2. search bar
-3. onclick of an island to change the form
-4. on click on book now alert 
-
-## Instructor Notes
-
-
-
-* [Aziz's Notes](https://github.com/JoinCODED/DEMO-Template/blob/main/aziz.md)
+1. When clicking book now button in `IslandForm.js` show an alert that says the trip is booked.
