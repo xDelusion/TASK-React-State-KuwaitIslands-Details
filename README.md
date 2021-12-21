@@ -13,7 +13,7 @@
 3. In `App.js` pass our state to the `IslandForm.js`.
 4. Pass this `setIsland` to `IslandList.js`.
 5. From `IslandList.js` let's pass it again to `Island.js`.
-6. Add an `onClick` function to the whole `div` that calls our `setIsland` and give it the current island.
+6. In `Island.js` add an `onClick` function to the whole `div` that calls our `setIsland` and give it the current island.
 
 ## Book Now
 
