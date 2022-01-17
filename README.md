@@ -1,11 +1,3 @@
-## Counter
-
-1. In the component IslandForm.js there is a counter that's not functional. Fix it.
-
-## Search Bar
-
-1. In the component `IslandList.js` there is a search bar that's not functional. Fix it.
-
 ## Change the island
 
 1. In `App.js` we are rendring the `IslandList.js` and `IslandForm.js`.
