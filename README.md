@@ -1,7 +1,8 @@
 ### Steps
+
 Fork and clone [this repo](https://github.com/JoinCODED/TASK-React-KuwaitIslands-Details) into your `Development` folder
 
-## Part1: Change the island
+## 🍋 Part 1: Change the island
 
 1. In `App.js` we are rendring the `IslandList` and `IslandForm`.
 2. Create a state called `island` that holds the island to be shown with an intial value of an empty string.
@@ -10,6 +11,11 @@ Fork and clone [this repo](https://github.com/JoinCODED/TASK-React-KuwaitIslands
 5. From `IslandList` let's pass it again to `Island`.
 6. In `Island` add an `onClick` function to the whole `div` that calls our `setIsland` and give it the current island.
 
-## Part2: Book Now
+## 🤼 Part 2: Form
 
-1. When clicking book now button in `IslandForm` show an alert that says the trip is booked.
+1. Validate that the phone number field accepts only phone numbers
+2. When clicking (book now) button in `IslandForm`, show a [confirm message](https://www.w3schools.com/jsref/met_win_confirm.asp) to confirm if the user really wants to book the trip with the following message: "Are you sure you want to book to `{ISLAND_NAME}` with the Name: `{NAME}`, phone: `{PHONE_NUMBER}`"
+
+## 🌶 Part 3: Visitors counter
+
+1. If confirmed (clicking on OK button), you should increment the counter of visitor inside the island selected.
