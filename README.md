@@ -4,14 +4,14 @@ Fork and clone [this repo](https://github.com/JoinCODED/TASK-React-KuwaitIslands
 
 ## Description
 
-In this website, whenever a user presses on an island, it will appear on the right side, with 'Failaka' being the default island when you first open the app.
+In this website, whenever a user presses on an island, it will appear on the right side, with 'Boubyan' being the default island when you first open the app.
 
 For the bonus 🎁, a user can book a trip to the island they choose by typing their information, and confirming their booking.
 
 ## 🍋 Part 1: Change the island
 
-1. In `App.js` we are rendring the `IslandList` and `IslandForm`.
-2. Create a state called `island` that holds the island to be shown with an intial value of an empty string.
+1. In `App.js` we are rendring the `IslandList` and `IslandForm`. Island form is taking the value `island` that you have to make a state.
+2. Change the variable island to a state called `island` that holds the island to be shown with an intial value of boubyan island object.
 3. In `App.js` pass our state to the `IslandForm`.
 4. Pass this `setIsland` to `IslandList`.
 5. From `IslandList` let's pass it again to `Island`.
