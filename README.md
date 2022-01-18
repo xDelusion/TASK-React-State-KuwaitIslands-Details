@@ -2,6 +2,12 @@
 
 Fork and clone [this repo](https://github.com/JoinCODED/TASK-React-KuwaitIslands-Details) into your `Development` folder
 
+## Description
+
+In this website, whenever a user presses on an island, it will appear on the right side, with 'Failaka' being the default island when you first open the app.
+
+For the bonus 🎁, a user can book a trip to the island they choose by typing their information, and confirming their booking.
+
 ## 🍋 Part 1: Change the island
 
 1. In `App.js` we are rendring the `IslandList` and `IslandForm`.
